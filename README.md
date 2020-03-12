@@ -1,7 +1,6 @@
 # README
 
-[『Linuxで動かしながら学ぶTCP/IP入門』](https://www.amazon.co.jp/exec/obidos/ASIN/B085BG8CH5/momijiame-22/)の学習環境用に、  
-を提供します。  
+[『Linuxで動かしながら学ぶTCP/IP入門』](https://www.amazon.co.jp/exec/obidos/ASIN/B085BG8CH5/momijiame-22/)の学習用に、Docker環境を提供します。  
 コマンドは本書および著者の[Githubリポジトリ](https://github.com/momijiame/linux-tcpip-book)を参照ください。
 
 とくにネットワークネームスペースの準備をシェル化することで、ネットワークの準備をすぐ済ませます。
