@@ -21,8 +21,8 @@ RUN apt-get update \
 
 WORKDIR /var/tmp
 
-RUN mkdir http-home \
-  && cd http-home
+RUN mkdir /var/tmphttp-home \
+  && cd /var/tmphttp-home
 
-ADD *.sh .
-ADD index.html http-home
+ADD ./shell /var/tmp
+ADD ./index.html /var/tmp/http-home
